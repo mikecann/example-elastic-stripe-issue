@@ -1,0 +1,24 @@
+{
+  "name": "example-elastic-stripe-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mike Cann <mike.cann@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "script": "ts-node --transpile-only --project ./scripts/tsconfig.json",
+    "build": "yarn script ./scripts/build.ts",
+    "start": "node -r dotenv/config ./dist/index.js",
+    "dev": "yarn build && yarn start"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "esbuild": "^0.14.10",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "elastic-apm-node": "^3.26.0",
+    "stripe": "^8.195.0"
+  }
+}

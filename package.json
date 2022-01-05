@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0",
-    "elastic-apm-node": "^3.26.0",
-    "stripe": "^8.195.0"
+    "elastic-apm-node": "3.26.0",
+    "stripe": "8.195.0"
   }
 }

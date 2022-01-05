@@ -159,6 +159,11 @@ breadth-filter@^2.0.0:
   dependencies:
     object.entries "^1.0.4"
 
+bundle-require@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/bundle-require/-/bundle-require-2.2.0.tgz#19abbe83771db4ac0bd569d7e116b39c34522dea"
+  integrity sha512-JDVxYEAxEX1g8AWtadiIkCkFf42RulEl5AOIvUa4cpuEL/VKpK2lJwogyswHnp+qizNQxM0Ylamw7CjPRaJZuA==
+
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
